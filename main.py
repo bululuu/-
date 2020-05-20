@@ -27,4 +27,4 @@ for one in L:
 
     print "\nminConf=0.5时："
     rules = generateRules(L,suppData, minConf=0.5)
-
+    plot(rules,method='graph')
